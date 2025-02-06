@@ -58,3 +58,10 @@ footer p {
         transform: translateX(-100%);
     }
 }
+
+.main-notice-section {
+    background-color: var(--bg);
+    padding: 4rem 0;
+    margin-left: 3rem;
+    overflow: auto;
+}
