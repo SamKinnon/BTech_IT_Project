@@ -17,6 +17,19 @@ html {
     margin-top: -150%;
     
 }
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: var(--secondary-color);
+    color: #fff;
+    height: 10vh;
+}
+
+.contact-form-heading {
+    color: #007bff;
+}
+
 #contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -29,15 +42,6 @@ html {
 #contact-form h2 {
     text-align: center;
     margin-bottom: 30px;
-}
-footer {
-    background-color: var(--secondary-color);
-    color: #fff;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    white-space: nowrap;
 }
 
 footer p {
