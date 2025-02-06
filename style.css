@@ -107,3 +107,8 @@ footer p {
     height: 20px;
     margin-right: 10px;
 }
+
+.notice-bord li p {
+    margin: 0;
+    color: var(--text-color);
+}
