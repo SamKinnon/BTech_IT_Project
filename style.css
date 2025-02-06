@@ -235,3 +235,23 @@ footer {
 }
 
 
+
+/* Department Cards Section */
+.vision {
+    margin-top: 10px; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 10px;
+}
+
+
