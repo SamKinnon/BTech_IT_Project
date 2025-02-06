@@ -7,7 +7,6 @@
 html {
     overflow-x: hidden;
 }
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +17,6 @@ html {
     margin-top: -150%;
     
 }
-=======
 #contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -32,4 +30,27 @@ html {
     text-align: center;
     margin-bottom: 30px;
 }
->>>>>>> bd4a6a164d7bd0e42d20e2bca618475ba24617d7
+footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+footer p {
+    display: inline-block;
+    animation: scroll-left 10s linear infinite;
+    font-size: 1.2rem;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
