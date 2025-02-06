@@ -84,3 +84,10 @@ footer p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.notice-bord h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    margin-left: 5rem;
+}
