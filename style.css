@@ -101,3 +101,9 @@ footer p {
     list-style: none;
     cursor: pointer;
 }
+
+.notice-bord li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
