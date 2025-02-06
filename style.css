@@ -71,3 +71,9 @@ footer p {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.notice-bord,
+.event-card {
+    width: 50%;
+    margin-bottom: 2rem;
+}
