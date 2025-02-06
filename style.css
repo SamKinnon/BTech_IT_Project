@@ -7,3 +7,13 @@
 html {
     overflow-x: hidden;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-container {
+    position: relative;
+    margin-top: -150%;
+    
+}
