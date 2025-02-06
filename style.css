@@ -1,62 +1,104 @@
-* {
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f4f4f4;
 }
 
-html {
-    overflow-x: hidden;
+/* Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003366;
+    padding: 10px 20px;
+    color: white;
 }
-* {
+
+.header img {
+    height: 50px;
+}
+
+.brand-logo-name h1 {
     margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation Styles */
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.navbar-link:hover {
+    background-color: #00509E;
+    border-radius: 5px;
+}
+
+/* Notice Board Styles */
+.main-notice-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.notice-bord-heading {
+    font-size: 22px;
+    color: #003366;
+}
+
+.notice-container ul {
+    list-style: none;
     padding: 0;
-    box-sizing: border-box;
-}
-.img-container {
-    position: relative;
-    margin-top: -150%;
-    
 }
 
-footer {
-    text-align: center;
-    padding: 2rem 0;
-    background-color: var(--secondary-color);
-    color: #fff;
-    height: 10vh;
+.notice-container li {
+    margin: 10px 0;
+    font-size: 16px;
 }
 
-.contact-form-heading {
-    color: #007bff;
+.new-text {
+    color: red;
+    font-weight: bold;
 }
 
-#contact-form {
-    max-width: 600px;
-    margin: 0 auto;
+/* About Us Section */
+#about-us-section {
     padding: 30px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 5px;
 }
 
-#contact-form h2 {
+.img-container {
     text-align: center;
-    margin-bottom: 30px;
 }
 
-footer p {
-    display: inline-block;
-    animation: scroll-left 10s linear infinite;
-    font-size: 1.2rem;
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
-@keyframes scroll-left {
-    from {
-        transform: translateX(100%);
-    }
-    to {
-        transform: translateX(-100%);
-    }
+.img-title {
+    font-size: 18px;
+    color: #003366;
+}
+
+/* Contact Form Section */
+#contact-form {
+    padding: 20px;
+    background-color: #eee;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .main-notice-section {
