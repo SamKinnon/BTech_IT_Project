@@ -7,3 +7,50 @@
 html {
     overflow-x: hidden;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-container {
+    position: relative;
+    margin-top: -150%;
+    
+}
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+footer p {
+    display: inline-block;
+    animation: scroll-left 10s linear infinite;
+    font-size: 1.2rem;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
