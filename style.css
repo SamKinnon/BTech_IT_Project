@@ -154,3 +154,10 @@ body {
     margin: 0;
     color: var(--text-color);
 }
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: var(--secondary-color);
+    color: #fff;
+    height: 10vh;
+}
