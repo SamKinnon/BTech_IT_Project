@@ -328,15 +328,7 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-<!-- Button Section for More Academic Programs -->
-            <div class="row text-center justify-content-center" style="margin-top: 40px;">
-                <div class="btn">
-                    <a href="#" title="More Academic Programs" class="btn btn_blue">
-                        More Academic Programs
-                    </a>
-                </div>
-            </div>
-        </div>
+
 
 /* Main button styling */
 .btn_blue {
