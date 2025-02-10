@@ -8,16 +8,26 @@ body {
 
 /* Header Styles */
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #58d2ed;
-    padding: 10px 20px;
+    background-color: #1a2b3d;
     color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 20px;
+    border-radius: 4px;
 }
 
 .header img {
     height: 50px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.brand-logo-name {
+    margin-left: 10px;
 }
 
 .brand-logo-name h1 {
@@ -26,16 +36,28 @@ body {
 }
 
 /* Navigation Styles */
+.navbar-lists {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-lists li {
+    margin-right: 15px;
+}
 .navbar-link {
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
-    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
 }
 
 .navbar-link:hover {
-    background-color: #00509E;
+    background-color: #0056b3;
     border-radius: 5px;
+}
+.navbar-link i {
+    margin-right: 5px;
 }
 
 /* Notice Board Styles */
