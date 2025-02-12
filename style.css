@@ -8,15 +8,13 @@ body {
 
 /* Header Styles */
 .header {
-    background-color: #1a2b3d;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 45px;
-    margin-right: 20px;
-    border-radius: 4px;
+    border-radius: 4px 4px 0 0;
 }
 
 .header img {
@@ -46,7 +44,7 @@ body {
     margin-right: 15px;
 }
 .navbar-link {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 10px;
     transition: background-color 0.3s ease;
