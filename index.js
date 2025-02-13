@@ -6,6 +6,18 @@ function myFunction() {
         x.className = "navbar-lists";
     }
 }
+function toggleReadMore() {
+        var content = document.getElementById("extra-content");
+        var btn = document.getElementById("read-more-btn");
+
+        if (content.style.display === "none" || content.style.display === "") {
+            content.style.display = "block";
+            btn.innerHTML = "Read Less";
+        } else {
+            content.style.display = "none";
+            btn.innerHTML = "Read More";
+        }
+    }
 const scrollLinks = document.querySelectorAll(' .navbar-link');
 scrollLinks.forEach(link => {
     link.addEventListener('click',
