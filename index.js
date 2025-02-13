@@ -11,7 +11,7 @@ scrollLinks.forEach(link => {
     link.addEventListener('click',
          function (e) {
         e.preventDefault();
-        const targetId = this.getAttribute('href');
+        const targetId = this.getAttribute('bhref');
         if (targetId) {
             const targetElement = 
                   document.getElementById(targetId
